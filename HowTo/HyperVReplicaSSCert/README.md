@@ -58,6 +58,10 @@ On each Hyper-V server add the following registry key:
 REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization\Replication" /v DisableCertRevocationCheck /d 1 /t REG_DWORD /f
 ```
 
+```reg
+reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization\FailoverReplication" /v DisableCertRevocationCheck /d 1 /t REG_DWORD /f
+```
+
 ## Once all certificates are imported, Hyper-V Replica can be configured
 
 ![screen5](screen5.jpg)
@@ -76,3 +80,19 @@ Set-VMReplicationServer –ReplicationEnabled $true -AllowedAuthenticationType C
 ```
 
 ## Last step is enabling Replication on VM level
+
+## Notes
+
+It should work with Windows Server 2016
+
+For Windows Server without GUI  **Import-PfxCertificate** cmdlet can be used
+
+```powershell
+$mypwd = ConvertTo-SecureString -String "1" -Force –AsPlainText
+Import-PfxCertificate –FilePath C:\cert\HV01.pfx cert:\localMachine\my -Password $mypwd
+Import-PfxCertificate –FilePath C:\cert\HV02.pfx cert:\localMachine\my -Password $mypwd
+```
+
+To replace default SHA1 hash algorithm you can add `-HashAlgorithm "SHA256"` on certificate generation step.
+
+Add "-NotAfter (Get-Date).AddMonths(24)" parameter to New-SelfSignedCertificate cmdlet to generate a certificate, which expires in 2 years. By default it is 1 year.
