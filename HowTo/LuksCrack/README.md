@@ -1,8 +1,8 @@
 # Brute forcing LUKS protected device
 
-Encrypt test device. In my case it is 8GB flash drive.
+Encrypt test device. In my case it is 8GB flash drive.:
 
-```cmd
+```txt
 root@hostname:~# fdisk -l
 Disk /dev/sda: 7.5 GiB, 8015314944 bytes, 15654912 sectors
 Units: sectors of 1 * 512 = 512 bytes
@@ -24,7 +24,7 @@ Enter passphrase for /dev/sda:
 
 Create file system on mapped device.
 
-```cmd
+```txt
 root@hostname:~# mkfs.ext4 /dev/mapper/test
 mke2fs 1.43.4 (31-Jan-2017)
 Creating filesystem with 1956352 4k blocks and 489600 inodes
@@ -40,7 +40,7 @@ Writing superblocks and filesystem accounting information: done
 
 Mount encrypted volume.
 
-```cmd
+```txt
 root@hostname:~# mount /dev/mapper/test /test/
 root@hostname:~# df -h
 Filesystem        Size  Used Avail Use% Mounted on
@@ -49,14 +49,14 @@ Filesystem        Size  Used Avail Use% Mounted on
 
 Umount and close luks device.
 
-```cmd
+```txt
 root@hostname:~# umount /test
 root@hostname:~# cryptsetup luksClose test
 ```
 
 Snap luks header.
 
-```cmd
+```txt
 root@hostname:~ # dd if=/dev/sda of=test.header bs=512 count=4097
 4097+0 records in
 4097+0 records out
@@ -65,7 +65,7 @@ root@hostname:~ # dd if=/dev/sda of=test.header bs=512 count=4097
 
 Copy the header to crack station and start brute forcing. In my case it is VM with Xeon CPU.
 
-```cmd
+```txt
 F:\hashcat-4.1.0>hashcat64.exe -m 14600 F:\test.header -a 3 ?d?d?d?d?d?d
 hashcat (v4.1.0) starting...
 
@@ -110,7 +110,7 @@ HWMon.Dev.#1.....: N/A
 
 Another example with custom charset.
 
-```cmd
+```txt
 F:\hashcat-4.1.0>hashcat64.exe -m 14600 F:\test.header -a 3 -1 123456 ?1?1?1?1?1?1
 hashcat (v4.1.0) starting...
 
