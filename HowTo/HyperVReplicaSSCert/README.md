@@ -66,7 +66,7 @@ reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization\Failov
 
 ![screen5](screen5.jpg)
 
-On second server PowerShell script can be used to achieve the same configuration as above. 
+On second server PowerShell script can be used to achieve the same configuration as above.
 
 ```powershell
 Get-ChildItem Cert:LocalMachine\My | fl Subject,Thumbprint
