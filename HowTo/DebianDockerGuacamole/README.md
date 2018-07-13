@@ -63,7 +63,7 @@ docker cp mysql-connector-java-5.1.46.jar guacamole:/opt/guacamole/mysql/
 docker restart guacamole
 ```
 
-Now you are ready to connect to your Guacamole instance at http://SERVERIP:8080/guacamole/ with guacadmin/guacadmin credentials
+Now you are ready to connect to your Guacamole instance at `http://SERVERIP:8080/guacamole/` with guacadmin/guacadmin credentials
 
 ## Update containers so they start automatically after reboot
 
