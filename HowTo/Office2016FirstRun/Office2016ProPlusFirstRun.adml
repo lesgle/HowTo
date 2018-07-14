@@ -1,0 +1,15 @@
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>
+  </displayName>
+  <description>
+  </description>
+  <resources>
+    <stringTable>
+      <string id="Office2016ProPlusFirstRun">Office 2016 ProPlus - First Run</string>
+      <string id="AcceptAllEulas">Disable Accept EULA prompt</string>
+      <string id="DisableOOXMLBallot">Disable Default File Type Dialog</string>
+      <string id="AcceptAllEulas_Help">When this policy is enabled, all End User License Agreements are accepted without prompt.</string>
+      <string id="DisableOOXMLBallot_Help">When this policy is enabled, user is not asked to set a default file type (XML/OpenDocument) during Office 2016 first run.</string>
+    </stringTable>
+  </resources>
+</policyDefinitionResources>

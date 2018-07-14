@@ -1,0 +1,32 @@
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="Office2016ProPlusFirstRun" namespace="Office2016ProPlusFirstRun.Policies.Office2016ProPlusFirstRun" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <resources minRequiredRevision="1.0" />
+  <categories>
+    <category name="Office2016ProPlusFirstRun" displayName="$(string.Office2016ProPlusFirstRun)" />
+  </categories>
+  <policies>
+    <policy name="AcceptAllEulas" class="User" displayName="$(string.AcceptAllEulas)" explainText="$(string.AcceptAllEulas_Help)" key="SOFTWARE\Microsoft\Office\16.0\Registration" valueName="AcceptAllEulas">
+      <parentCategory ref="Office2016ProPlusFirstRun" />
+      <supportedOn ref="windows:SUPPORTED_Windows7" />
+      <enabledValue>
+            <decimal value="1" />
+      </enabledValue>
+      <disabledValue>
+            <decimal value="0" />
+      </disabledValue>
+    </policy>
+    <policy name="DisableOOXMLBallot" class="User" displayName="$(string.DisableOOXMLBallot)" explainText="$(string.DisableOOXMLBallot_Help)" key="SOFTWARE\Microsoft\Office\16.0\Common\General" valueName="ShownFileFmtPrompt">
+      <parentCategory ref="Office2016ProPlusFirstRun" />
+      <supportedOn ref="windows:SUPPORTED_Windows7" />
+      <enabledValue>
+            <decimal value="1" />
+      </enabledValue>
+      <disabledValue>
+            <decimal value="0" />
+      </disabledValue>
+    </policy>
+  </policies>
+</policyDefinitions>

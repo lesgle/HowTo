@@ -8,4 +8,5 @@
 [LuksCrack](HowTo/LuksCrack) - Brute forcing LUKS protected device.  
 [ReFSHighRAM](HowTo/ReFSHighRAM) - Identifying and fixing high RAM usage by ReFS.  
 [SSHTunnel](HowTo/SSHTunnel) - Some examples of using SSH tunneling (port forwarding).  
-[AzureASM2ARM](HowTo/AzureASM2ARM) - Microsoft Azure - Migrate from ASM to ARM.
+[AzureASM2ARM](HowTo/AzureASM2ARM) - Microsoft Azure - Migrate from ASM to ARM.  
+[Office2016FirstRun](HowTo/Office2016FirstRun) - Microsoft Office 2016 ProPlus - First Run ADMX.
