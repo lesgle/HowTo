@@ -7,4 +7,5 @@
 [BlockedUserInGAL](HowTo/BlockedUserInGAL) - Exchange Online – Blocked (unlicensed) user appears in GAL.  
 [LuksCrack](HowTo/LuksCrack) - Brute forcing LUKS protected device.  
 [ReFSHighRAM](HowTo/ReFSHighRAM) - Identifying and fixing high RAM usage by ReFS.  
-[SSHTunnel](HowTo/SSHTunnel) - Some examples of using SSH tunneling (port forwarding).
+[SSHTunnel](HowTo/SSHTunnel) - Some examples of using SSH tunneling (port forwarding).  
+[AzureASM2ARM](HowTo/AzureASM2ARM) - Microsoft Azure - Migrate from ASM to ARM.
