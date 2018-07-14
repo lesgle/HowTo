@@ -10,4 +10,5 @@
 [SSHTunnel](HowTo/SSHTunnel) - Some examples of using SSH tunneling (port forwarding).  
 [AzureASM2ARM](HowTo/AzureASM2ARM) - Microsoft Azure - Migrate from ASM to ARM.  
 [Office2016FirstRun](HowTo/Office2016FirstRun) - Microsoft Office 2016 ProPlus - First Run ADMX.  
-[ADGPOProcessing](HowTo/ADGPOProcessing) - Group Policy - Processing Order.
+[ADGPOProcessing](HowTo/ADGPOProcessing) - Group Policy - Processing Order.  
+[ZFSExport2File](HowTo/ZFSExport2File) - ZFS - Export snapshot to encrypted file.
