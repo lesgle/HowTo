@@ -1,15 +1,16 @@
 # Generic HowTo's
 
-[DebianDockerGuacamole](HowTo/DebianDockerGuacamole) - Debian Stretch, Docker and Guacamole.  
-[ConvertMBR2GPT](HowTo/ConvertMBR2GPT) - Windows Server - Convert MBR to GPT without data loss.  
-[HyperVReplicaSSCert](HowTo/HyperVReplicaSSCert) - Hyper-V Replica with self-signed certificates.  
-[MSEonServer](HowTo/MSEonServer) - Installing MSE on Windows Server 2012 R2.  
-[BlockedUserInGAL](HowTo/BlockedUserInGAL) - Exchange Online – Blocked (unlicensed) user appears in GAL.  
-[LuksCrack](HowTo/LuksCrack) - Brute forcing LUKS protected device.  
-[ReFSHighRAM](HowTo/ReFSHighRAM) - Identifying and fixing high RAM usage by ReFS.  
-[SSHTunnel](HowTo/SSHTunnel) - Some examples of using SSH tunneling (port forwarding).  
-[AzureASM2ARM](HowTo/AzureASM2ARM) - Microsoft Azure - Migrate from ASM to ARM.  
-[Office2016FirstRun](HowTo/Office2016FirstRun) - Microsoft Office 2016 ProPlus - First Run ADMX.  
-[ADGPOProcessing](HowTo/ADGPOProcessing) - Group Policy - Processing Order.  
-[ZFSExport2File](HowTo/ZFSExport2File) - ZFS - Export snapshot to encrypted file.  
-[XENIPFireInt](HowTo/XENIPFireInt) - XEN - IPFire - Interface doesn't exist.
+[Debian Stretch, Docker and Guacamole](HowTo/DebianDockerGuacamole)  
+[Windows Server - Convert MBR to GPT without data loss](HowTo/ConvertMBR2GPT)  
+[Hyper-V Replica with self-signed certificates](HowTo/HyperVReplicaSSCert)  
+[Installing MSE on Windows Server 2012 R2](HowTo/MSEonServer)  
+[Exchange Online – Blocked (unlicensed) user appears in GAL](HowTo/BlockedUserInGAL)  
+[Brute forcing LUKS protected device](HowTo/LuksCrack)  
+[Identifying and fixing high RAM usage by ReFS](HowTo/ReFSHighRAM)  
+[Some examples of using SSH tunneling (port forwarding)](HowTo/SSHTunnel)  
+[Microsoft Azure - Migrate from ASM to ARM](HowTo/AzureASM2ARM)  
+[Microsoft Office 2016 ProPlus - First Run ADMX](HowTo/Office2016FirstRun)  
+[Group Policy - Processing Order](HowTo/ADGPOProcessing)  
+[ZFS - Export snapshot to encrypted file](HowTo/ZFSExport2File)  
+[XEN - IPFire - Interface doesn't exist](HowTo/XENIPFireInt)  
+[Ubuntu 17.04 with XEN 4.8 and ZFS](HowTo/UbuntuXenZFS)
