@@ -16,7 +16,8 @@
 [Installing MSE on Windows Server 2012 R2](HowTo/MSEonServer)  
 [Identifying and fixing high RAM usage by ReFS](HowTo/ReFSHighRAM)  
 [Group Policy - Processing Order](HowTo/ADGPOProcessing)  
-[Microsoft Office 2016 ProPlus - First Run ADMX](HowTo/Office2016FirstRun)
+[Microsoft Office 2016 ProPlus - First Run ADMX](HowTo/Office2016FirstRun)  
+[Windows Server Core - Managing Programs, Updates and Drivers](HowTo/WSCoreManagement)
 
 ## Exchange and Exchange Online
 
