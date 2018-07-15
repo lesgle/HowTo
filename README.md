@@ -1,16 +1,28 @@
 # Generic HowTo's
 
+## Linux
+
 [Debian Stretch, Docker and Guacamole](HowTo/DebianDockerGuacamole)  
-[Windows Server - Convert MBR to GPT without data loss](HowTo/ConvertMBR2GPT)  
-[Hyper-V Replica with self-signed certificates](HowTo/HyperVReplicaSSCert)  
-[Installing MSE on Windows Server 2012 R2](HowTo/MSEonServer)  
-[Exchange Online – Blocked (unlicensed) user appears in GAL](HowTo/BlockedUserInGAL)  
 [Brute forcing LUKS protected device](HowTo/LuksCrack)  
-[Identifying and fixing high RAM usage by ReFS](HowTo/ReFSHighRAM)  
 [Some examples of using SSH tunneling (port forwarding)](HowTo/SSHTunnel)  
-[Microsoft Azure - Migrate from ASM to ARM](HowTo/AzureASM2ARM)  
-[Microsoft Office 2016 ProPlus - First Run ADMX](HowTo/Office2016FirstRun)  
-[Group Policy - Processing Order](HowTo/ADGPOProcessing)  
 [ZFS - Export snapshot to encrypted file](HowTo/ZFSExport2File)  
 [XEN - IPFire - Interface doesn't exist](HowTo/XENIPFireInt)  
 [Ubuntu 17.04 with XEN 4.8 and ZFS](HowTo/UbuntuXenZFS)
+
+## Windows Server
+
+[Windows Server - Convert MBR to GPT without data loss](HowTo/ConvertMBR2GPT)  
+[Hyper-V Replica with self-signed certificates](HowTo/HyperVReplicaSSCert)  
+[Installing MSE on Windows Server 2012 R2](HowTo/MSEonServer)  
+[Identifying and fixing high RAM usage by ReFS](HowTo/ReFSHighRAM)  
+[Group Policy - Processing Order](HowTo/ADGPOProcessing)  
+[Microsoft Office 2016 ProPlus - First Run ADMX](HowTo/Office2016FirstRun)
+
+## Exchange and Exchange Online
+
+[Exchange Online – Blocked (unlicensed) user appears in GAL](HowTo/BlockedUserInGAL)  
+[Exchange Server - Change default mailbox calendar](HowTo/ExchangeChangeCalendar)
+
+## Microsoft Azure
+
+[Microsoft Azure - Migrate from ASM to ARM](HowTo/AzureASM2ARM)
