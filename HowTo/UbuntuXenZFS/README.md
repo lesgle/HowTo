@@ -127,7 +127,7 @@ Create basic HVM.
 Create disk image (15GB) on ZFS volume. Put there an ISO with OS installation media.
 
 ```text
-dd if=/dev/zero of=test.raw  bs=1G  count=15
+dd if=/dev/zero of=test.raw bs=1G count=15
 ```
 
 Create domain configuration file.
@@ -189,5 +189,5 @@ fdisk -l
 Create 20GB file (image files for PV, PVH - *.raw, *.img etc).
 
 ```text
-dd if=/dev/zero of=filename.raw  bs=1G  count=20
+dd if=/dev/zero of=filename.raw bs=1G count=20
 ```
