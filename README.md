@@ -18,7 +18,7 @@
 [Group Policy - Processing Order](HowTo/ADGPOProcessing)  
 [Microsoft Office 2016 ProPlus - First Run ADMX](HowTo/Office2016FirstRun)  
 [Windows Server Core - Managing Programs, Updates and Drivers](HowTo/WSCoreManagement)  
-[SQL Server - How to shrink log of mirrored database](SQLLogShrink)
+[SQL Server - How to shrink log of mirrored database](HowTo/SQLLogShrink)
 
 ## Exchange and Exchange Online
 
