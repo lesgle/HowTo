@@ -25,7 +25,8 @@
 ## Exchange and Exchange Online
 
 [Exchange Online – Blocked (unlicensed) user appears in GAL](HowTo/BlockedUserInGAL)  
-[Exchange Server - Change default mailbox calendar](HowTo/ExchangeChangeCalendar)
+[Exchange Server - Change default mailbox calendar](HowTo/ExchangeChangeCalendar)  
+[Exchange Server - Connect a disabled mailbox](HowTo/ExchangeDisabledMailboxConnect)
 
 ## Microsoft Azure
 
