@@ -27,4 +27,5 @@
 
 ## Microsoft Azure
 
-[Microsoft Azure - Migrate from ASM to ARM](HowTo/AzureASM2ARM)
+[Microsoft Azure - Migrate from ASM to ARM](HowTo/AzureASM2ARM)  
+[Azure AD Connect - installation error](HowTo/ADConnectInstallError)
