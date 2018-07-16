@@ -8,7 +8,8 @@
 [ZFS - Export snapshot to encrypted file](HowTo/ZFSExport2File)  
 [XEN - IPFire - Interface doesn't exist](HowTo/XENIPFireInt)  
 [Ubuntu 17.04 with XEN 4.8 and ZFS](HowTo/UbuntuXenZFS)  
-[CloudStack - XenServer - single server deployment](HowTo/CloudStackSingleServer)
+[CloudStack - XenServer - single server deployment](HowTo/CloudStackSingleServer)  
+[Ubuntu 16.04 - Failed to start LXD](HowTo/UbuntuLXDFailedToStart)
 
 ## Windows Server
 
