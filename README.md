@@ -33,3 +33,7 @@
 
 [Microsoft Azure - Migrate from ASM to ARM](HowTo/AzureASM2ARM)  
 [Azure AD Connect - installation error](HowTo/ADConnectInstallError)
+
+## VMware
+
+[ESXi - vCenter behind NAT](HowTo/vCenterNAT)
