@@ -7,7 +7,8 @@
 [Some examples of using SSH tunneling (port forwarding)](HowTo/SSHTunnel)  
 [ZFS - Export snapshot to encrypted file](HowTo/ZFSExport2File)  
 [XEN - IPFire - Interface doesn't exist](HowTo/XENIPFireInt)  
-[Ubuntu 17.04 with XEN 4.8 and ZFS](HowTo/UbuntuXenZFS)
+[Ubuntu 17.04 with XEN 4.8 and ZFS](HowTo/UbuntuXenZFS)  
+[CloudStack - XenServer - single server deployment](HowTo/CloudStackSingleServer)
 
 ## Windows Server
 
