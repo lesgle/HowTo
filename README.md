@@ -37,3 +37,7 @@
 ## VMware
 
 [ESXi - vCenter behind NAT](HowTo/vCenterNAT)
+
+## Miscellaneous
+
+[Test Anonymous Relay via Telnet](HowTo/TelnetSMTPRelay)
