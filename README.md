@@ -21,7 +21,8 @@
 [Microsoft Office 2016 ProPlus - First Run ADMX](HowTo/Office2016FirstRun)  
 [Windows Server Core - Managing Programs, Updates and Drivers](HowTo/WSCoreManagement)  
 [SQL Server - How to shrink log of mirrored database](HowTo/SQLLogShrink)  
-[SQL Server 2016 - Always On Availability Groups](HowTo/SQL2016AOG)
+[SQL Server 2016 - Always On Availability Groups](HowTo/SQL2016AOG)  
+[Windows Server 2016 - windows updates error - 0x80070005](HowTo/WS2016WUError)
 
 ## Exchange and Exchange Online
 
