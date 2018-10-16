@@ -30,7 +30,8 @@
 
 [Exchange Online – Blocked (unlicensed) user appears in GAL](HowTo/BlockedUserInGAL)  
 [Exchange Server - Change default mailbox calendar](HowTo/ExchangeChangeCalendar)  
-[Exchange Server - Connect a disabled mailbox](HowTo/ExchangeDisabledMailboxConnect)
+[Exchange Server - Connect a disabled mailbox](HowTo/ExchangeDisabledMailboxConnect)  
+[Exchange Server - An incomplete installation was detected. Run setup to complete Exchange installation](HowTo/FixExchangeInstallation)
 
 ## Microsoft Azure
 
