@@ -10,7 +10,8 @@
 [Ubuntu 17.04 with XEN 4.8 and ZFS](HowTo/UbuntuXenZFS)  
 [CloudStack - XenServer - single server deployment](HowTo/CloudStackSingleServer)  
 [Ubuntu 16.04 - Failed to start LXD](HowTo/UbuntuLXDFailedToStart)  
-[Raspberry Pi - Wi-Fi router](HowTo/RaspberryPiRouter)
+[Raspberry Pi - Wi-Fi router](HowTo/RaspberryPiRouter)  
+[Build Wordpress website on Azure VM](HowTo/AzureDockerWordpress)
 
 ## Windows Server
 
