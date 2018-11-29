@@ -14,4 +14,4 @@ Then run **gptgen** tool with the following parameters **“gptgen.exe -w \\.\ph
 
 Run **Diskpart** to check if the settings are applied successfully.
 
-![screen1](screen3.png)
+![screen1](screen4.png)
