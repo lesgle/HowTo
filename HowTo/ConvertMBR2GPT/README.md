@@ -15,3 +15,7 @@ Then run **gptgen** tool with the following parameters **“gptgen.exe -w \\.\ph
 Run **Diskpart** to check if the settings are applied successfully.
 
 ![screen1](screen4.png)
+
+## Attention
+
+Please note that it is not supported scenario. Please backup all your data before making any changes. Obviously, test it first.
