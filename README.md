@@ -37,7 +37,8 @@
 ## Microsoft Azure
 
 [Microsoft Azure - Migrate from ASM to ARM](HowTo/AzureASM2ARM)  
-[Azure AD Connect - installation error](HowTo/ADConnectInstallError)
+[Azure AD Connect - installation error](HowTo/ADConnectInstallError)  
+[How to migrate Azure VM to another account](HowTo/AzureMigrateSubscription)
 
 ## VMware
 
