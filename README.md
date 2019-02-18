@@ -25,7 +25,8 @@
 [SQL Server - How to shrink log of mirrored database](HowTo/SQLLogShrink)  
 [SQL Server 2016 - Always On Availability Groups](HowTo/SQL2016AOG)  
 [Windows Server 2016 - windows updates error - 0x80070005](HowTo/WS2016WUError)  
-[Windows Server - RDP fails with 36870 error](HowTo/FixRDPError)
+[Windows Server - RDP fails with 36870 error](HowTo/FixRDPError)  
+[Fix Windows Updates 0x8024402F and 0x8024000E errors](HowTo/FixWUError)
 
 ## Exchange and Exchange Online
 
