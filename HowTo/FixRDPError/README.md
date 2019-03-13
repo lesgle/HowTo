@@ -24,7 +24,7 @@ Then on a remote session check a System log. The command below shows last 10 eve
 wevtutil qe System /c:10 /rd:true /f:text
 ```
 
-You should see the errors with `36870` id.
+You should see the errors with `36870` or `1057` ID's.
 
 Check a server certificate. From management station (it should have a network access to the server, preferably from the same vNet) open `mmc` and add `Certificates` snap-in. Select `Computer Account` then `Another Computer` and type server IP or DNS name. Check the certificate under `Remote Desktop` group.
 
