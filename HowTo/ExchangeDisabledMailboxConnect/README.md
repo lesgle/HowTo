@@ -9,7 +9,7 @@ But sometimes a removed mailbox doesn't show up as a disconnected one. In this c
 First of all find a MailboxGuid and Database name of removed mailbox:
 
 ```powershell
-Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "Display Name" } | ft DisplayName,Database,MailboxGuid 
+Get-MailboxDatabase | Get-MailboxStatistics | Where { $_.DisplayName -eq "Display Name" } | ft DisplayName,Database,MailboxGuid,DisconnectReason,DisconnectDate
 ```
 
 Then update the mailbox state:
