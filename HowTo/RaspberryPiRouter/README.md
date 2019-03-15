@@ -53,6 +53,8 @@ rsn_pairwise=CCM
 
 **Note:** `ignore_broadcast_ssid=1` parameter is used to hide access point from listing. In this case you need to specify the network name and password manually on your client device.
 
+Also "accept_mac_file=/etc/hostapd/mac_accept" can be used to limit access to specific devices. **mac_accept** file should contain the list of mac addresses.
+
 Amend `hostapd` daemon defaults. Replace `DAEMON_CONF` with `DAEMON_CONF="/etc/hostapd/hostapd.conf"` in `/etc/default/hostapd`
 
 Install `dnsmasq` package:
